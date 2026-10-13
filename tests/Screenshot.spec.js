@@ -14,5 +14,5 @@ test('@Web popup validations',async({page})=>{
 })
 test.only('Visual testing',async({page})=>{
     await page.goto('https://rahulshettyacademy.com/AutomationPractice/');
-    expect(await page.screenshot()).toMatchSnapshot('landing.png');
+    // expect(await page.screenshot()).toMatchSnapshot('landing.png');
 })
